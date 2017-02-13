@@ -29,7 +29,7 @@
         <!--リポジトリサーチ-->
         <scene sceneID="FDS-uL-gq6">
             <objects>
-                <viewController id="uRV-n2-anb" sceneMemberID="viewController">
+                <viewController id="uRV-n2-anb" customClass="FirstViewController" customModule="GithubAPI" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eX3-Xb-qQo"/>
                         <viewControllerLayoutGuide type="bottom" id="aGw-FN-pbU"/>
@@ -62,6 +62,7 @@
                                     <color key="titleShadowColor" red="0.85056023849999995" green="0.97419819080000003" blue="0.97455797700000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="buttonPushed:" destination="uRV-n2-anb" eventType="touchUpInside" id="yaL-A4-V9Q"/>
                                     <segue destination="XIj-h3-cxT" kind="push" id="Hsa-JQ-Xbl"/>
                                 </connections>
                             </button>
@@ -69,6 +70,9 @@
                         <color key="backgroundColor" red="0.92693676219999999" green="0.92218324029999998" blue="0.93169028399999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" title="リポジトリサーチ" id="Dk1-h0-f9w"/>
+                    <connections>
+                        <outlet property="searchWord" destination="jXu-Mj-yWf" id="PCi-AH-RjO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QzQ-N8-zkz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -87,7 +91,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mQe-es-0OK" id="fKq-40-GJx">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -135,7 +139,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LW5-p2-DPZ" id="JOB-aH-Zcg">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
