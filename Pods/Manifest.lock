@@ -1,8 +1,10 @@
 PODS:
   - Alamofire (4.3.0)
+  - Himotoki (3.0.0)
 
 DEPENDENCIES:
   - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - Himotoki
 
 EXTERNAL SOURCES:
   Alamofire:
@@ -15,7 +17,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: 1f72088aff8f6b40828dadd61be2e9a31beca01e
+  Himotoki: df74b01035e86e021b7b04a15b033a7fd189b84f
 
-PODFILE CHECKSUM: 8c73631423e79949bf427d3ef5750594113a6235
+PODFILE CHECKSUM: 31ebc11e94fdd0a594ef7aaa8e9531c8514847ec
 
 COCOAPODS: 1.1.1

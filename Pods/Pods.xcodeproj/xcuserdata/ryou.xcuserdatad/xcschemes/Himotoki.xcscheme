@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0FAF26222D81A937E5721C78C703D929'
-               BlueprintName = 'Pods-GithubAPI'
+               BlueprintIdentifier = '3CAF2DFADEB8F0738869A90E9E89E526'
+               BlueprintName = 'Himotoki'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'Pods-GithubAPI.framework'>
+               BuildableName = 'Himotoki.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
